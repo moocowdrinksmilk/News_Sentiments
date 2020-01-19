@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+<form class="" action="#" method="post">
+  <div class="form-group">
+   <label for="exampleInputEmail1">BBC News URL</label>
+   <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nm">
+ </div>
+  <p>
+    <input type="submit" name="submit" value="Submit"/>
+  </p>
+
+  <p>Sentiment Score</p>
+  <div class="score">
+    {{score}}
+  </div>
+
+</form>
+</div>
+ {% endblock %}
+
+ <script src="js/form.js">
+
+ </script>
